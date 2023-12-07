@@ -3,7 +3,6 @@ import 'package:emart_seller/views/orders_screen/components/order_place.dart';
 import 'package:emart_seller/views/widgets/text_style.dart';
 import 'package:emart_seller/views/widgets/our_button.dart';
 import 'package:get/route_manager.dart';
-import 'package:intl/intl.dart' as intl;
 
 class OrderDetails extends StatelessWidget {
   const OrderDetails({super.key});

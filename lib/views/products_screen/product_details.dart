@@ -1,7 +1,6 @@
 import 'package:emart_seller/const/const.dart';
 import 'package:emart_seller/views/widgets/text_style.dart';
 import 'package:get/get.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 
 class ProductDetails extends StatelessWidget {
   const ProductDetails({super.key});
