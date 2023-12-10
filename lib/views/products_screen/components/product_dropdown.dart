@@ -1,19 +1,35 @@
 import 'package:emart_seller/const/const.dart';
+import 'package:emart_seller/controllers/products_controller.dart';
 import 'package:emart_seller/views/widgets/text_style.dart';
+import 'package:get/get.dart';
 
-Widget productDropDown() {
-  return DropdownButtonHideUnderline(
-    child: DropdownButton<String>(
-      hint: normalText(text: "Choose category", color: fontGrey),
-      value: null,
-      isExpanded: true,
-      items: const [],
-      onChanged: (value) {},
-    ),
-  )
-      .box
-      .white
-      .padding(const EdgeInsets.symmetric(horizontal: 4))
-      .roundedSM
-      .make();
+Widget productDropDown(
+    hint, List<String> list, dropvalue, ProductsController controller) {
+  return Obx(
+    () => DropdownButtonHideUnderline(
+      child: DropdownButton<String>(
+        hint: normalText(text: "$hint", color: fontGrey),
+        value: dropvalue == '' ? null : dropvalue.value,
+        isExpanded: true,
+        items: list.map((e) {
+          return DropdownMenuItem(
+            value: e,
+            child: e.text.make(),
+          );
+        }).toList(),
+        onChanged: (newValue) {
+          if (hint == "Categoty") {
+            controller.subcategoryvalue.value = '';
+            controller.populateSubCategoryList(newValue.toString());
+          }
+          dropvalue.value = newValue.toString();
+        },
+      ),
+    )
+        .box
+        .white
+        .padding(const EdgeInsets.symmetric(horizontal: 4))
+        .roundedSM
+        .make(),
+  );
 }

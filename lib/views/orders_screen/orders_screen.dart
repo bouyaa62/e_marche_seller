@@ -7,7 +7,6 @@ import 'package:emart_seller/views/widgets/appbar_widget.dart';
 import 'package:emart_seller/views/widgets/loading_indicator.dart';
 import 'package:emart_seller/views/widgets/text_style.dart';
 import 'package:get/get.dart';
-import 'package:get/route_manager.dart';
 import 'package:intl/intl.dart' as intl;
 
 class OrdersScreen extends StatelessWidget {

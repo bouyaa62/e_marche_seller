@@ -21,4 +21,18 @@ class StoreServices {
         .where('vendors', arrayContains: currentUser!.uid)
         .snapshots();
   }
+
+  static getProducts(uid) {
+    return firestore
+        .collection(productsCollection)
+        .where('vendor_id', isEqualTo: uid)
+        .snapshots();
+  }
+
+  static getPopularProducts(uid) {
+    return firestore
+        .collection(productsCollection)
+        .where('vendor_id', isEqualTo: uid)
+        .orderBy('p_wishlist'.length);
+  }
 }
