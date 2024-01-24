@@ -1,16 +1,34 @@
 # e_marche_seller
 
-A new Flutter project.
 
-## Getting Started
+# E-Marche Seller
 
-This project is a starting point for a Flutter application.
+E-marche is an e-commerce mobile application built using flutter and firebase for sellers. It enables to its users to:
+* Create an account.
+* View their statistics.
+* Add/Delete products to/from their stores.
+* Edit a product.
+* Manage orders and change their status.
+* Add products to the featured list.
+* Modify their profile.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Screenshots
+
+Check screenshots of all the application's screens.
+
+![App Screenshot](https://i.ibb.co/gM32vr6/IMG-20240124-163925.jpg)
+![App Screenshot](https://i.ibb.co/6wK5rDg/IMG-20240124-163937.jpg)
+![App Screenshot](https://i.ibb.co/F4kG5HS/IMG-20240124-163950.jpg)
+![App Screenshot](https://i.ibb.co/QfYDK9Q/IMG-20240124-164004.jpg)
+![App Screenshot](https://i.ibb.co/jy7LKpd/IMG-20240124-164032.jpg)
+![App Screenshot](https://i.ibb.co/qMKFPF9/IMG-20240124-164045.jpg)
+![App Screenshot](https://i.ibb.co/GMj9h0T/IMG-20240124-164055.jpg)
+
+# Demo
+
+Click [here](https://drive.google.com/file/d/1U6V45gEpDrsmcE_FZbHdNtDsrgM0hChF/view?usp=drive_link) for a google drive link for the application's demo.
+
