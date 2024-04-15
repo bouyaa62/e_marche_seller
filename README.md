@@ -28,7 +28,3 @@ Check screenshots of all the application's screens.
 ![App Screenshot](https://i.ibb.co/qMKFPF9/IMG-20240124-164045.jpg)
 ![App Screenshot](https://i.ibb.co/GMj9h0T/IMG-20240124-164055.jpg)
 
-# Demo
-
-Click [here](https://drive.google.com/file/d/1U6V45gEpDrsmcE_FZbHdNtDsrgM0hChF/view?usp=drive_link) for a google drive link for the application's demo.
-
