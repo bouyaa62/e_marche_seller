@@ -1,6 +1,3 @@
-# e_marche_seller
-
-
 # E-Marche Seller
 
 E-marche is an e-commerce mobile application built using flutter and firebase for sellers. It enables to its users to:
